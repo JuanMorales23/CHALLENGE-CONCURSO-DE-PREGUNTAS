@@ -8,6 +8,6 @@ public interface PlayerService {
 
     List<Player> findAll();
     void save(Player player);
-    Player findById(Long id);
-    void delete(Long id);
+    Player findById(String id);
+    void delete(String id);
 }

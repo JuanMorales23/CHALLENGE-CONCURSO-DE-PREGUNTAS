@@ -26,12 +26,12 @@ public class PlayerController {
     }
 
     @GetMapping("/{id}")
-    public Player findById(@PathVariable("id") Long id){
+    public Player findById(@PathVariable("id") String id){
         return playerService.findById(id);
     }
 
-    @DeleteMapping("/save/{id}")
-    public void delete(@PathVariable("id") Long id){
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable("id") String id){
         playerService.delete(id);
     }
 }

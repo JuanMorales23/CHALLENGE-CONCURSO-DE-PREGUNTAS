@@ -1,7 +1,7 @@
 package com.sofkau.challengepreguntas.services;
 
-import com.sofkau.challengepreguntas.entities.Player;
-import com.sofkau.challengepreguntas.repositories.PlayerRepository;
+import com.sofkau.challengepreguntas.entities.Question;
+import com.sofkau.challengepreguntas.repositories.QuestionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -9,32 +9,32 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
-public class PlayerServiceImpl implements PlayerService{
+public class QuestionServiceImpl implements QuestionService{
 
     @Autowired
-    private PlayerRepository playerRepository;
+    private QuestionRepository questionRepository;
 
     @Override
     @Transactional(readOnly = true)
-    public List<Player> findAll() {
-        return playerRepository.findAll();
+    public List<Question> findAll() {
+        return questionRepository.findAll();
     }
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public void save(Player player) {
-        playerRepository.save(player);
+    public void save(Question question) {
+        questionRepository.save(question);
     }
 
     @Override
     @Transactional(readOnly = true)
-    public Player findById(String id) {
-        return playerRepository.findById(id).orElse(null);
+    public Question findById(String id) {
+        return questionRepository.findById(id).orElse(null);
     }
 
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void delete(String id) {
-        playerRepository.deleteById(id);
+        questionRepository.deleteById(id);
     }
 }
