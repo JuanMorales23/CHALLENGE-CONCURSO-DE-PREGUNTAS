@@ -37,4 +37,36 @@ public class PlayerServiceImpl implements PlayerService{
     public void delete(String id) {
         playerRepository.deleteById(id);
     }
+
+    @Override
+    @Transactional(readOnly = true)
+    public boolean existingPlayer(String name) {
+        Boolean isPlayer = false;
+        List<Player> players = findAll();
+        for (Player player: players) {
+            if (name.equals(player.getName())) {
+                isPlayer = true;
+                break;
+            } else {
+                isPlayer = false;
+            }
+        }
+        return isPlayer;
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public String getIdByName(String name) {
+        String id = "";
+        List<Player> players = findAll();
+        for (Player player : players) {
+            if (name.equals(player.getName())) {
+                id = player.getId();
+                break;
+            } else {
+                id = "Not found";
+            }
+        }
+        return id;
+    }
 }

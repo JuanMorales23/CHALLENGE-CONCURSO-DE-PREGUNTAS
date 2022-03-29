@@ -10,4 +10,6 @@ public interface PlayerService {
     void save(Player player);
     Player findById(String id);
     void delete(String id);
+    boolean existingPlayer(String name);
+    String getIdByName(String name);
 }

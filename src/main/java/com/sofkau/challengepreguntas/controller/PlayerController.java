@@ -3,6 +3,7 @@ package com.sofkau.challengepreguntas.controller;
 import com.sofkau.challengepreguntas.entities.Player;
 import com.sofkau.challengepreguntas.services.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -33,5 +34,16 @@ public class PlayerController {
     @DeleteMapping("/{id}")
     public void delete(@PathVariable("id") String id){
         playerService.delete(id);
+    }
+
+
+    @GetMapping("/exist/{name}")
+    public boolean existingPlayer(@PathVariable("name") String name){
+        return playerService.existingPlayer(name);
+    }
+
+    @GetMapping("/getId/{name}")
+    public String getIdByName(@PathVariable("name") String name){
+        return playerService.getIdByName(name);
     }
 }
