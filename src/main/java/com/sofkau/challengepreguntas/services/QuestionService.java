@@ -10,4 +10,5 @@ public interface QuestionService {
     void save(Question question);
     Question findById(String id);
     void delete(String id);
+    List<Question> findByLevel(Integer level);
 }

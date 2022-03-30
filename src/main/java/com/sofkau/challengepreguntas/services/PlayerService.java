@@ -12,4 +12,5 @@ public interface PlayerService {
     void delete(String id);
     boolean existingPlayer(String name);
     String getIdByName(String name);
+    void updateScore(Player player);
 }

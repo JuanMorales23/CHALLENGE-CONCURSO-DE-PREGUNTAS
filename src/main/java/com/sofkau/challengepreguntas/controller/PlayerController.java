@@ -46,4 +46,9 @@ public class PlayerController {
     public String getIdByName(@PathVariable("name") String name){
         return playerService.getIdByName(name);
     }
+
+    @PutMapping
+    public void update(@RequestBody Player player){
+        playerService.updateScore(player);
+    }
 }

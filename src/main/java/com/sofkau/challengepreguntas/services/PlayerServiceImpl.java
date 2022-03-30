@@ -69,4 +69,10 @@ public class PlayerServiceImpl implements PlayerService{
         }
         return id;
     }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public void updateScore(Player player) {
+        playerRepository.save(player);
+    }
 }

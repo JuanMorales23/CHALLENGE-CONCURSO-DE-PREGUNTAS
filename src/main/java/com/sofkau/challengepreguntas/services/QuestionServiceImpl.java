@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 @Service
 public class QuestionServiceImpl implements QuestionService{
@@ -36,5 +38,17 @@ public class QuestionServiceImpl implements QuestionService{
     @Transactional(rollbackFor = Exception.class)
     public void delete(String id) {
         questionRepository.deleteById(id);
+    }
+
+    @Override
+    public List<Question> findByLevel(Integer level) {
+        List<Question> sameLevel = new Stack<>();
+        List<Question> questions = findAll();
+        for (Question question : questions) {
+            if(level.equals(question.getLevel())){
+                sameLevel.add(question);
+            }
+        }
+        return sameLevel;
     }
 }

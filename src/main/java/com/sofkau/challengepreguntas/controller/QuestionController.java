@@ -35,4 +35,9 @@ public class QuestionController {
         questionService.delete(id);
     }
 
+    @GetMapping("/level/{level}")
+    public List<Question> findByLevel(@PathVariable("level") Integer level){
+        return questionService.findByLevel(level);
+    }
+
 }
