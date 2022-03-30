@@ -1,0 +1,301 @@
+[{
+  "_id": {
+    "$oid": "624275038b108228e5ead4a0"
+  },
+  "category": "Animals",
+  "level": 1,
+  "question": "Who invented the origin of species teoric?",
+  "correctAnswer": "Charles Darwin",
+  "incorrect1": "Albert Einstein",
+  "incorrect2": "Stephen Hawking",
+  "incorrect3": "Isaac Newton",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "6243967920277525243cf4ff"
+  },
+  "category": "Movies",
+  "level": 1,
+  "question": "What kind of movie is Encanto?",
+  "correctAnswer": "Animated",
+  "incorrect1": "Romantic",
+  "incorrect2": "Thriller",
+  "incorrect3": "Documental",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "62439a8b6f9ee369a17417b3"
+  },
+  "category": "Music",
+  "level": 2,
+  "question": "Quien es el cantante de Foo fighters?",
+  "correctAnswer": "Dave Ghrol",
+  "incorrect1": "Dave Mustaine",
+  "incorrect2": "Michael Jackson",
+  "incorrect3": "Sia",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "62441b411fed785c32941c5d"
+  },
+  "category": "General Knowledge",
+  "level": 3,
+  "question": "Who was the frist person on the moon?",
+  "correctAnswer": "Neil Armstrong",
+  "incorrect1": "Barack Obama",
+  "incorrect2": "Buzz Aldrin",
+  "incorrect3": "Alan Shepard",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "62441ca31fed785c32941c5e"
+  },
+  "category": "Animals",
+  "level": 1,
+  "question": "Who invented the origin of species teoric?",
+  "correctAnswer": "Charles Darwin",
+  "incorrect1": "Albert Einstein",
+  "incorrect2": "Stephen Hawking",
+  "incorrect3": "Isaac Newton",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "624425e1d68b571eb9b25db9"
+  },
+  "category": "Geography",
+  "level": 1,
+  "question": "What country is between Peru and Colombia?",
+  "correctAnswer": "Ecuador",
+  "incorrect1": "Brasil",
+  "incorrect2": "Argentina",
+  "incorrect3": "Chile",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "624426a4d68b571eb9b25dba"
+  },
+  "category": "Culture",
+  "level": 5,
+  "question": "What measures in Paris about 333 meters?",
+  "correctAnswer": "Eiffel Tower",
+  "incorrect1": "Roman Coliseum",
+  "incorrect2": "Big ben",
+  "incorrect3": " St Mark's Basilica",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "624427b3d68b571eb9b25dbb"
+  },
+  "category": "General Knowledge",
+  "level": 2,
+  "question": " What is the bird symbol of peace?",
+  "correctAnswer": "Dove",
+  "incorrect1": "Cat",
+  "incorrect2": "Dog",
+  "incorrect3": "Eagle",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "62442831d68b571eb9b25dbc"
+  },
+  "category": "Mathematics",
+  "level": 1,
+  "question": "What is the result of the next operation? (2*3)+2=",
+  "correctAnswer": "8",
+  "incorrect1": "4",
+  "incorrect2": "5",
+  "incorrect3": "7",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "624428add68b571eb9b25dbd"
+  },
+  "category": "Music",
+  "level": 4,
+  "question": "What city are the Beatles from?",
+  "correctAnswer": "Liverpool",
+  "incorrect1": "Venecia",
+  "incorrect2": "Madrid",
+  "incorrect3": "Paris",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "624443d268aa9f4ebb688086"
+  },
+  "category": "Movies",
+  "level": 5,
+  "question": " Which of the Seven Dwarfs did not have a beard?",
+  "correctAnswer": "Dopey",
+  "incorrect1": "Bashful",
+  "incorrect2": "Happy",
+  "incorrect3": "\tSneezy",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "6244444868aa9f4ebb688087"
+  },
+  "category": "History",
+  "level": 5,
+  "question": "Who was the first president of the United States?",
+  "correctAnswer": "George Washington",
+  "incorrect1": "Thomas Jefferson",
+  "incorrect2": "John Tyler",
+  "incorrect3": "Abraham Lincoln",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "624444bf68aa9f4ebb688088"
+  },
+  "category": "History",
+  "level": 4,
+  "question": "What was the motto of the Three Musketeers?",
+  "correctAnswer": "All for one and one for all",
+  "incorrect1": "A{l for us",
+  "incorrect2": "Nothing to anyone",
+  "incorrect3": "everything belongs to everyone",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "6244450268aa9f4ebb688089"
+  },
+  "category": "Music",
+  "level": 2,
+  "question": "Wind instrument",
+  "correctAnswer": "Trumpet",
+  "incorrect1": "Drum",
+  "incorrect2": "Piano",
+  "incorrect3": "Guitar",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "6244458168aa9f4ebb68808a"
+  },
+  "category": "Nature",
+  "level": 4,
+  "question": "Which of the five senses develops first?",
+  "correctAnswer": " Smell",
+  "incorrect1": "Touch",
+  "incorrect2": "View",
+  "incorrect3": "Listen",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "624445f768aa9f4ebb68808b"
+  },
+  "category": "General Knowledge",
+  "level": 3,
+  "question": "What is the most sensitive finger of the hand?",
+  "correctAnswer": " index",
+  "incorrect1": "little finger",
+  "incorrect2": "heart",
+  "incorrect3": "thumb",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "6244465e68aa9f4ebb68808c"
+  },
+  "category": "General Knowledge",
+  "level": 3,
+  "question": "Which chess piece can make an L-shaped move?",
+  "correctAnswer": "Horse",
+  "incorrect1": "Queen",
+  "incorrect2": "King",
+  "incorrect3": "Tower",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "624446af68aa9f4ebb68808d"
+  },
+  "category": "Nature",
+  "level": 2,
+  "question": " What is the national animal of Australia?",
+  "correctAnswer": "Kangaroo",
+  "incorrect1": "Dog",
+  "incorrect2": "Lion",
+  "incorrect3": "Duck",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "6244471368aa9f4ebb68808e"
+  },
+  "category": "General Knowledge",
+  "level": 4,
+  "question": "How many players does a volleyball team have?",
+  "correctAnswer": "6",
+  "incorrect1": "9",
+  "incorrect2": "5",
+  "incorrect3": "4",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "6244476468aa9f4ebb68808f"
+  },
+  "category": "History",
+  "level": 5,
+  "question": " What was Muhammad Ali's former name?",
+  "correctAnswer": "Cassius Clay",
+  "incorrect1": "Tyrone",
+  "incorrect2": "Samuel L. Jackson",
+  "incorrect3": "Ricardo Milos",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "624447cd68aa9f4ebb688090"
+  },
+  "category": "Music",
+  "level": 3,
+  "question": "What is a string instrument?",
+  "correctAnswer": "Violin",
+  "incorrect1": "Drum",
+  "incorrect2": "Saxophone",
+  "incorrect3": "Timbal",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "6244483d68aa9f4ebb688091"
+  },
+  "category": "General Knowledge",
+  "level": 4,
+  "question": " Where is the deepest trench in the ocean?",
+  "correctAnswer": "Mariana Trench",
+  "incorrect1": "Valentina Trench",
+  "incorrect2": " Galapagos Islands",
+  "incorrect3": "Providencia",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "6244488d68aa9f4ebb688092"
+  },
+  "category": "Geography",
+  "level": 2,
+  "question": "What is The capital of canada?",
+  "correctAnswer": "Ottawa",
+  "incorrect1": "Bogotá",
+  "incorrect2": "Caracas",
+  "incorrect3": "Buenos Aires",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "6244492b68aa9f4ebb688093"
+  },
+  "category": "Movies",
+  "level": 3,
+  "question": " What popular Netflix series tells us about the life of drug trafficker Pablo Escobar Gaviria?",
+  "correctAnswer": "Narcos",
+  "incorrect1": "Greys Anatomy",
+  "incorrect2": "Friends",
+  "incorrect3": "Peaky Blinders",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+},{
+  "_id": {
+    "$oid": "624449d768aa9f4ebb688094"
+  },
+  "category": "History",
+  "level": 5,
+  "question": " Who invented the World Wide Web?",
+  "correctAnswer": "Tim Berners-Lee",
+  "incorrect1": "Bill Gates",
+  "incorrect2": "Elon Musk",
+  "incorrect3": "Steve Jobs",
+  "_class": "com.sofkau.challengepreguntas.entities.Question"
+}]
