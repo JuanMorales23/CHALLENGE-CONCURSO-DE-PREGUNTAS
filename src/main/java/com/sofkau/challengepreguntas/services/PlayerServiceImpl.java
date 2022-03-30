@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PlayerServiceImpl implements PlayerService{
@@ -73,6 +74,8 @@ public class PlayerServiceImpl implements PlayerService{
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void updateScore(Player player) {
-        playerRepository.save(player);
+        Optional<Player> playerOptional = this.playerRepository.findById(player.getId());
+        Player player1 = playerOptional.get();
+        player1.setScore(player.getScore());
     }
 }
